@@ -27,7 +27,7 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
   </head>
   <body>
-    <!-- Hero Section
+    <!-- Hero Section-->
     <section id="intro" style="" class="hero bg-cover">
       <div class="overlay">
         <div class="content h-100 d-flex align-items-center">
@@ -47,122 +47,77 @@
         <a href="#info" class="scroll-btn link-scroll"><i class="fas fa-angle-double-down"></i></a>
       </div>
     </section>
-    -->
-    <!-- Countdown banner -->
-    <section id="cdown" style="" class="bg-cover">
-      <div class="overlay">
-        <div class="container h-100 align-items-center">
-          <div class="row h-100">
-            <div class="col text-center justify-content-center align-self-center">
-              <h4 class="text-white mb-0 font-weight-bold text-uppercase">As pré-jornadas terão início dentro de</h4>
-              <div id="clock" class="countdown text-white"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
     <!-- Navbar-->
+    <!-- navbar-->
     <header class="header sticky-top">
-      <nav class="navbar navbar-expand-md bg-white border-bottom py-0">
-        <div class="container"><a href="#" class="navbar-brand py-1 link-scroll"><img src="./img/smallbridge.svg" alt="" class="img-fluid" style="height:50px;"></a>
+      <nav class="navbar navbar-expand-lg bg-white border-bottom py-0">
+        <div class="container"><a href="#" class="navbar-brand py-1"><img src="./img/smallbridge.svg" alt="" class="img-fluid" style="height:50px;"></a>
           <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="fas fa-bars"></span></button>
           <div id="navbarSupportedContent" class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto px-3">
-              <!--<li class="nav-item active"><a href="#intro" class="nav-link text-uppercase link-scroll">Intro</a></li>-->
+              <li class="nav-item active"><a href="#intro" class="nav-link text-uppercase link-scroll">Intro</a></li>
               <li class="nav-item"><a href="#info" class="nav-link text-uppercase link-scroll">Informações</a></li>
-              <!--<li class="nav-item"><a href="#map" class="nav-link text-uppercase link-scroll">Mapa</a></li>-->
-              <li class="nav-item"><a href="#program" class="nav-link text-uppercase link-scroll">Programa</a></li>
-              <li class="nav-item ml-4"><a href="#inscrever" class="btn-primary rounded-pill nav-link text-uppercase link-scroll pl-3 pr-3 text-white">Inscrever-me</a></li>
+              <li class="nav-item"><a href="#map" class="nav-link text-uppercase link-scroll">Mapa</a></li>
+              <li class="nav-item"><a href="#program" class="nav-link text-uppercase link-scroll">Inscrições e programa</a></li>
+              <li class="nav-item"><a href="#contact" class="nav-link text-uppercase link-scroll">Contacto</a></li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
     <!-- About Section-->
-    <section id="info" class="about pb-4">
+    <section id="info" class="about">
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
             <header class="text-center mb-5">
-              <h2 class="lined text-uppercase">Bem-vindo!</h2>
+              <h2 class="lined text-uppercase">Informações</h2>
             </header>
-            <p class="lead">Em <span class="font-weight-bold bg-gray">2020</span> a tua Comissão de Internos de MGF da ARSLVT organiza um evento <span class="font-weight-bold bg-gray">online</span> para te preparar para o regresso das Jornadas <span class="text-muted">no futuro próximo.</span></p>
-            <p>Aqui vai ficar um pequeno texto introdutório que ainda não está escrito por ninguém. No entretanto aqui fica algum texto para encher.</p>
-            <p>Possumus reprehenderit te appellat. Et fore nisi dolor mandaremus ab incurreret 
-              se deserunt, excepteur culpa consequat nam nam litteris non tempor sed quem 
-              incurreret est iudicem, duis nostrud commodo iis te sunt officia concursionibus, 
-              enim officia an minim enim. Qui proident concursionibus, ea tamen firmissimum 
-              est deserunt aliqua deserunt a de velit nulla duis cupidatat. Elit offendit 
-              adipisicing, tamen probant ne quorum quid non o aut cillum quorum eram, nulla 
-              voluptatibus appellat quae mandaremus, doctrina do legam, senserit irure multos 
-              qui nisi te quid occaecat aliquip aut lorem incurreret ab illum culpa.</p>
-            <!--<div class="container mb-4 mt-3">
-              <div class="row">
-                <div class="col-sm text-center">
-                  <button class="shadow btn btn-outline-primary btn-block h-100">
-                    <div class="icon mb-3"><i class="fas fa-book-medical"></i></div>
-                    <h4 class="text-uppercase font-weight-bold">Consultar programa</h4>
-                    <p class="small text-gray">Programa a divulgar.</p>
-                  </button>
-                </div>
-                <div class="col-sm text-center">
-                  <button class="shadow btn btn-outline-primary btn-block h-100">
-                    <div class="icon mb-3"><i class="fas fa-user-plus"></i></div>
-                    <h4 class="text-uppercase font-weight-bold">Inscrever-me</h4>
-                    <p class="small text-gray">Inscrições ainda não abertas.</p>
-                  </button>
-                </div>
+            <p class="lead">A medicina é uma das muitas áreas do conhecimento ligada à manutenção e restauração da saúde. Ela trabalha, num sentido amplo, com a prevenção e cura das doenças humanas e animais num contexto médico.</p>
+            <p>Ações de saúde pública e ambiental, incluindo a saúde animal, promoção, prevenção, controle, erradicação e tratamento das doenças, traumatismos ou qualquer outro agravo à integridade e bem-estar animais, além do controlo de sanidade dos produtos e subprodutos de origem animal para o consumo humano e animal compreendem a área da medicina da responsabilidade do profissional de saúde médico veterinário.</p>
+            <!--<div class="row">
+              <div class="col-sm text-center">
+                <button type="button" class="btn btn-primary">Consultar programa</button>
               </div>
-            </div>-->
+              <div class="col-sm text-center">
+                <button type="button" class="btn btn-primary">Inscrever-me</button>
+              </div>
+            </div> -->
           </div>
           <div class="col-lg-6 mb-3"><img src="img/ONB6V00.jpg" alt="..." class="img-fluid"></div>
         </div>
       </div>
     </section>
-    <!-- Map
-    <section id="map" class="border-bottom border-top"></section>-->
-    <!-- Programa -->
-    <section id="program" class="bg-gray pt-3 pb-3">
+    <!-- Map-->
+    <section id="map" class="border-bottom border-top"></section>
+    <!-- Services Section-->
+    <section id="program" class="bg-gray">
       <div class="container">
-        <!--<header class="text-center mb-5">
+        <!-- <header class="text-center mb-5">
           <h2 class="lined text-uppercase">Services</h2>
-        </header>-->
+        </header> -->
         <div class="row text-center">
-          <p class="col lead">Este ano o tema das tuas pré-jornadas é:</p>
-        </div>
-        <div class="row text-center">
-          <h2 class="col pt-2">XXXXXXXXXXXXXX</h2>
-        </div>
-              <div class="row">
-                <div class="col-sm pb-3">
-                  <a role="button" href="#inscrever" class="link-scroll"><button class="shadow btn btn-outline-primary btn-block h-100">
-                    <div class="icon mb-3"><i class="fas fa-book-medical align-middle"></i></div>
-                    <h4 class="text-uppercase font-weight-bold">Consultar programa</h4>
-                    <p class="small text-gray">Programa a divulgar.</p>
-                    </button></a>
-                </div>
-                <div class="col-sm pb-3">
-                  <a role="button" href="#inscrever" class="link-scroll"><button class="shadow btn btn-outline-primary btn-block h-100">
-                    <div class="icon mb-3"><i class="fas fa-user-plus align-middle"></i></div>
-                    <h4 class="text-uppercase font-weight-bold">Inscrever-me</h4>
-                    <p class="small text-gray">Inscrições ainda não abertas.</p>
-                  </button></a>
-                </div>
-              </div>
-      </div>
-    </section>
-    <section id="inscrever" class="bg-white pt-5">
-      <div class="container">
-        <header class="text-center mb-5">
-          <h2 class="lined text-uppercase">Inscrição</h2>
-        </header>
-        <div class="row justify-content-center mx-auto">
-          <a role="button" href="#"><button class="shadow btn btn-outline-primary btn-sm d-inline-block text-uppercase font-weight-bold h6">
-            <span class="icon" style="color:inherit;"><i class="fas fa-external-link-square-alt align-middle"></i></span> Abrir formulário em nova janela
-          </button></a>
-        </div>
-        <div class="embed-responsive embed-responsive-1by1">
-            <iframe class="embed-responsive-item" src="https://docs.google.com/forms/d/e/1FAIpQLSfijWyJCgJD79I2AJUWUVP7PdIjrHOCImdmotVoyxF9ZidUSg/viewform?embedded=true"></iframe>
+          <div class="col-lg-4">
+            <button class="bg-white mb-4 p-4 btn btn-outline-primary w-100">
+              <div class="icon mb-3"><i class="fas fa-user-plus"></i></div>
+              <h4 class="text-uppercase font-weight-bold">Inscrever-me</h4>
+              <p class="small text-gray">Inscrições ainda não abertas.</p>
+            </button>
+          </div>
+          <div class="col-lg-4">
+            <button class="bg-white mb-4 p-4 btn btn-outline-primary w-100">
+              <div class="icon mb-3"><i class="fas fa-file-upload"></i></div>
+              <h4 class="text-uppercase font-weight-bold">Submeter resumo</h4>
+              <p class="small text-gray">Ainda não disponível.</p>
+            </button>
+          </div>
+          <div class="col-lg-4">
+            <button class="bg-white mb-4 p-4 btn btn-outline-primary w-100">
+              <div class="icon mb-3"><i class="fas fa-book-medical"></i></div>
+              <h4 class="text-uppercase font-weight-bold">Consultar programa</h4>
+              <p class="small text-gray">Programa a divulgar.</p>
+            </button>
+          </div>
         </div>
       </div>
     </section>
@@ -263,7 +218,7 @@
         </div>
       </div>
     </section> -->
-    <!-- Contact Section
+    <!-- Contact Section-->
     <section id="contact">
       <div class="container">
         <header class="text-center mb-5">
@@ -301,7 +256,7 @@
           </div>
         </div>
       </div>
-    </section>-->
+    </section>
     <footer class="py-4 bg-gray">
       <div class="container">
         <div class="row justify-content-center">
@@ -330,8 +285,6 @@
     <script src="vendor/smooth-scroll/smooth-scroll.polyfills.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"> </script>
     <script src="js/front.js"></script>
-      <script src="js/jquery.countdown.min.js"></script>
-    <script src="js/cdown.js"></script>
     <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   </body>

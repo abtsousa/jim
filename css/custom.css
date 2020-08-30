@@ -1,3 +1,12 @@
+/* custom */
+a[role="button"]:hover {
+  text-decoration: none !important;
+}
+
+.embed-responsive {
+  max-height:50vh;
+}
+
 /*
 *
 * =====================
@@ -6,10 +15,54 @@
 *
 */
 
+/* cdown */
+
+#cdown {
+  height: auto;
+  max-height: 20vh;
+}
+
+.countdown {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.countdown span {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    font-size: 3rem;
+    margin-left: 0.8rem;
+}
+
+.countdown span:first-of-type {
+    margin-left: 0;
+}
+
+/* .countdown-circles {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.countdown-circles span {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.countdown-circles span:first-of-type {
+    margin-left: 0;
+} */
+
 /* overlay */
 
 .overlay {
   background: rgba(81, 163, 167, 0.93);
+  background: -webkit-linear-gradient(to right, #007991, #51a3a7);
+  background: linear-gradient(to right, #007991, #51a3a7);
 }
     
 /* 6aae7a --> 51a3a7 */
@@ -23,20 +76,29 @@
 }
 
 .btn-primary, .btn-primary.disabled, .btn-primary:disabled, .btn-outline-primary:hover,
-.btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-primary.dropdown-toggle,
 .page-item.active .page-link {
   background-color: #51a3a7;
   border-color: #51a3a7;
 }
 
+.btn-outline-primary:hover * {
+  color: white !important;
+}
+
 .btn-outline-primary {
   color: #51a3a7;
   border-color: #51a3a7;
+  background-color: white;
 }
 
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
   color: #51a3a7;
+}
+
+.btn-primary:hover, .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active {
+  background-color: #499296;
+  border-color: #499296;
 }
 
 .blockquote {
