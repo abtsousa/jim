@@ -22,8 +22,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css">
     <!-- Favicon-->
     <link rel="shortcut icon" href="favicon.png">
-    <!-- Parallax CSS-->
-    <link href="css/universal-parallax.min.css" rel="stylesheet">
     <!-- Tweaks for older IEs--><!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
@@ -51,7 +49,7 @@
     </section>
     -->
     <!-- Countdown banner -->
-    <section id="cdown" class="">
+    <section id="cdown" class="bg-cover">
       <div class="overlay">
         <div class="container h-100 align-items-center">
           <div class="row h-100">
@@ -86,11 +84,10 @@
       </nav>
     </header>
     <!-- About Section-->
-    <section id="info" class="about hero pt-5">
-      <div class="parallax" data-parallax-image="/img/1.jpg"></div>
-      <div class="container jumbotron pt-0">
+    <section id="info" class="about pb-4">
+      <div class="container">
         <div class="row">
-          <div class="col">
+          <div class="col-lg-6">
             <header class="text-center mb-5">
               <h2 class="lined text-uppercase">Bem-vindo!</h2>
             </header>
@@ -123,44 +120,43 @@
               </div>
             </div>-->
           </div>
+          <div class="col-lg-6 mb-3"><img src="img/ONB6V00.jpg" alt="..." class="img-fluid"></div>
         </div>
       </div>
     </section>
     <!-- Map
     <section id="map" class="border-bottom border-top"></section>-->
     <!-- Programa -->
-    <section id="program" class="pb-3">
-      <div class="parallax" data-parallax-image="/img/2.jpg"></div>
-      <div class="container text-white">
+    <section id="program" class="bg-gray pt-3 pb-3">
+      <div class="container">
         <!--<header class="text-center mb-5">
-          <h2 class="lined text-uppercase">Programa</h2>
+          <h2 class="lined text-uppercase">Services</h2>
         </header>-->
-        <div class="row">
-          <div class="col text-center">
-            <p class="lead">Este ano o tema das tuas pré-jornadas é:</p>
-            <h2 class="col pt-2 pb-2 text-white">Sexualidade para além do óbvio</h2>
-            <p class="small text-gray">Palestras e oradores a anunciar brevemente.</p>
-          </div>
+        <div class="row text-center">
+          <p class="col lead">Este ano o tema das tuas pré-jornadas é:</p>
+        </div>
+        <div class="row text-center">
+          <h2 class="col pt-2">XXXXXXXXXXXXXX</h2>
         </div>
               <div class="row">
                 <div class="col-sm pb-3">
-                  <a role="button" href="#inscrever" class="link-scroll"><button class="shadow btn btn-outline-dark btn-block h-100">
-                    <div class="icon mb-3"><i class="fas fa-book-medical align-middle text-white"></i></div>
-                    <h4 class="text-uppercase font-weight-bold text-white">Consultar programa</h4>
-                    <p class="small text-gray">Ainda não disponível.</p>
+                  <a role="button" href="#inscrever" class="link-scroll"><button class="shadow btn btn-outline-primary btn-block h-100">
+                    <div class="icon mb-3"><i class="fas fa-book-medical align-middle"></i></div>
+                    <h4 class="text-uppercase font-weight-bold">Consultar programa</h4>
+                    <p class="small text-gray">Programa a divulgar.</p>
                     </button></a>
                 </div>
                 <div class="col-sm pb-3">
-                  <a role="button" href="#inscrever" class="link-scroll"><button class="shadow btn btn-outline-dark btn-block h-100">
-                    <div class="icon mb-3"><i class="fas fa-user-plus align-middle text-white"></i></div>
-                    <h4 class="text-uppercase font-weight-bold text-white">Inscrever-me</h4>
+                  <a role="button" href="#inscrever" class="link-scroll"><button class="shadow btn btn-outline-primary btn-block h-100">
+                    <div class="icon mb-3"><i class="fas fa-user-plus align-middle"></i></div>
+                    <h4 class="text-uppercase font-weight-bold">Inscrever-me</h4>
                     <p class="small text-gray">Inscrições ainda não abertas.</p>
                   </button></a>
                 </div>
               </div>
       </div>
     </section>
-    <section id="inscrever" class="bg-white pb-3">
+    <section id="inscrever" class="bg-white pt-5 pb-3">
       <div class="container">
         <header class="text-center mb-5">
           <h2 class="lined text-uppercase">Inscrição</h2>
@@ -339,10 +335,8 @@
     <script src="vendor/smooth-scroll/smooth-scroll.polyfills.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"> </script>
     <script src="js/front.js"></script>
-    <script src="js/jquery.countdown.min.js"></script>
+      <script src="js/jquery.countdown.min.js"></script>
     <script src="js/cdown.js"></script>
-    <script src="js/universal-parallax.min.js"></script>
-    <script>new universalParallax().init();</script>
     <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   </body>

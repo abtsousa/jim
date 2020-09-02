@@ -7,6 +7,41 @@ a[role="button"]:hover {
   height:50vh;
 }
 
+.btn-outline-dark {
+  border-width: 3px;
+}
+
+/*hero height change for banner */
+#info.hero {
+  min-height:80vh !important;
+  height:auto !important;
+}
+
+#info .parallax {
+  background-position:center bottom !important;
+}
+
+#info .jumbotron {
+  background: none;
+}
+
+/* parallax
+
+/* Header Parallax Element Style 
+.paral {
+background-attachment: fixed;
+background-size: cover;
+background-position: center bottom;
+}
+
+/* .paralbg1 {
+  background-image:linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0.3)),url("/img/1.jpg");
+  min-height: 80vh;
+}
+
+/* Remove Bottom Margin from Jumbotron
+.jumbotron{margin-bottom: 0;}
+
 /*
 *
 * =====================
