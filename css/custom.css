@@ -13,7 +13,7 @@ a[role="button"]:hover {
 
 /*hero height change for banner */
 #info.hero {
-  min-height:80vh !important;
+  min-height:calc(80vh - 59px) !important;
   height:auto !important;
 }
 
