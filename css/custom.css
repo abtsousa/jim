@@ -13,12 +13,13 @@ a[role="button"]:hover {
 
 /*hero height change for banner */
 #info.hero {
-  min-height:calc(80vh - 59px) !important;
+  min-height: calc(80vh - 59px) !important;
   height:auto !important;
-}
-
-#info .parallax {
-  background-position:center bottom !important;
+  background-image: url("../img/1.jpg");
+  background-attachment: fixed;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #info .jumbotron {
